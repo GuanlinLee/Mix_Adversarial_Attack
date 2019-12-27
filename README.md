@@ -2,8 +2,9 @@
 A new white-box adversarial attack with mixed loss function and gradients
 
 ----
-We propose a new white-box attack based on multi loss functions and bagging
-lots of attack method with same restart times achieving better attack performance.
+We propose a new white-box attack based on multi loss functions and 
+bagging lots of attack methods. Even with the smaller restart times, 
+it could achieve better attack performance.
 
 ---
 
