@@ -26,23 +26,23 @@ Attack Method List:
 
 Loss Function List:
 >
->1.SSIM for Feature Maps
+>1.[SSIM](https://github.com/tensorflow/tensorflow/blob/r2.0/tensorflow/python/ops/image_ops_impl.py#L3295-L3419) for Feature Maps
 >
 >2.L2 Loss for Pre-Outputs
 >
->3.Earth Moved Distance for Probability
+>3.[Earth Mover's Distance](https://github.com/master/nima) for Probability
 >
->4.Cross-Entropy Loss
+>4.[Cross-Entropy Loss](https://github.com/MadryLab/cifar10_challenge)
 >
->5.C&W Loss
+>5.[C&W Loss](https://github.com/MadryLab/cifar10_challenge)
 
 ---
 
 Trick List:
 >
->1.Channel-Wise Self-Attention for Feature Maps
+>1.[Channel-Wise Self-Attention](https://github.com/facebookresearch/ImageNet-Adversarial-Training) for Feature Maps
 >
->2.Sobel Edge Locating Interesting Area 
+>2.[Sobel Edge](https://github.com/tensorflow/tensorflow/blob/r2.0/tensorflow/python/ops/image_ops_impl.py#L3463-L3501) Locating Interesting Area 
 >
 >3.Better Start and Restart Place
 >
